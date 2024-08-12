@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="assets/homeImg.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Sadeen Hawash</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo">
+          <div>PORTFOLIO</div>
+          <!-- <p>PORTFOLIO<br /><span>SADEEN HAWASH</span></p> -->
+        </div>
+        <div id="links" class="links">
+          <span id="close-menu" class="close-menu"
+            ><i class="fa-solid fa-xmark"></i
+          ></span>
+          <div class="logo">
+            <div>PORTFOLIO</div>
+          </div>
+          <a style="color: #c77a71" href="#home">Home</a>
+          <a style="color: #e5ca20" href="#about">About</a>
+          <a style="color: #b0a2af" href="#skills">Skills</a>
+          <a style="color: #7f8c2c" href="#projects">Projects</a>
+          <a style="color: #de6c28" href="#contact">Contact</a>
+        </div>
+        <div class="icons">
+          <a><i class="fa-brands fa-facebook-f"></i></a>
+          <a><i class="fa-brands fa-instagram"></i></a>
+          <a><i class="fa-brands fa-linkedin-in"></i></a>
+          <a class="toggle-menu" onclick="openCloseMenu()"
+            ><i class="fa-solid fa-bars"></i
+          ></a>
+        </div>
+      </nav>
+    </header>
+    <div id="home" class="home">
+      <div class="container">
+        <div class="text-side">
+          <h4>Hello, It's</h4>
+          <h1><span>Sadeen Hawash</span></h1>
+          <p>
+            I'm presently working toward a
+            <span style="color: #de6c28; letter-spacing: 1px"
+              >Computer Engineering</span
+            >
+            degree. I have explored several facets of software development due
+            to my enthusiasm for technology, but frontend development has piqued
+            my attention the most.
+          </p>
+        </div>
+        <div class="img-side">
+          <img class="inner-img" src="assets/homeImg.png" alt="" />
+          <img class="bg-img" src="assets/ring.png" alt="" />
+        </div>
+      </div>
+      <div style="background: #e5cb2060; margin-right: 2.5%" class="line"></div>
+    </div>
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          As a student, I’m continuously expanding my knowledge and skills in
+          web technologies like HTML, CSS, and JavaScript. I’m eager to dive
+          deeper into more advanced topics, such as web performance
+          optimization.
+        </p>
+        <p>
+          My goal is to contribute to the development community by creating
+          innovative and user-friendly applications.
+        </p>
+        <p>
+          I'm keen to learn more about frontend programming and lay a solid
+          basis for my web development profession, which is why I'm applying for
+          this course. Although my studies and self-directed projects have
+          taught me the fundamentals, I understand the need of remaining up to
+          date with emerging technology and developing industry-standard
+          procedures.
+        </p>
+        <!-- <p>
+          I've been worked on some projects, from small websites to large-scale
+          applications, and has a proven track record in delivering
+          high-quality, responsive designs. I'm always eager to learn more about
+          the field and always looking for opportunities to contribute to the
+          community.
+        </p> -->
+      </div>
+      <div style="background: #b0a2af6b" class="line"></div>
+    </section>
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+          <div class="box1">
+            <div>
+              <img src="assets/html.png" />
+              <img src="assets/css.png" />
+            </div>
+            <div>
+              <img src="assets/js.png" />
+              <img src="assets/react.png" />
+            </div>
+          </div>
+          <div class="box2">
+            <div class="box3">
+              <img src="assets/nodejs.png" />
+              <img src="assets/tailwind-css.png" />
+              <img src="assets/github.png" />
+            </div>
+            <div class="box4">
+              <img src="assets/mongodb.png" />
+              <img src="assets/sql-server.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="background: #7f8c2c6c" class="line"></div>
+    </section>
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>My Projects</h2>
+        <div class="wrapper">
+          <span class="project-title">BookBliss</span>
+          <div class="wrapper-container">
+            <input class="radio-btn" type="radio" name="slide" id="c1" />
+            <label for="c1" class="card">
+              <div class="row">
+                <div class="icon">1</div>
+                <div class="description">
+                  <h4>Home Page</h4>
+                </div>
+              </div>
+            </label>
+
+            <input class="radio-btn" type="radio" name="slide" id="c2" />
+            <label for="c2" class="card">
+              <div class="row">
+                <div class="icon">2</div>
+                <div class="description">
+                  <h4>Blog Page</h4>
+                </div>
+              </div>
+            </label>
+
+            <input class="radio-btn" type="radio" name="slide" id="c3" />
+            <label for="c3" class="card">
+              <div class="row">
+                <div class="icon">3</div>
+                <div class="description">
+                  <h4>Profile Page</h4>
+                </div>
+              </div>
+            </label>
+
+            <input class="radio-btn" type="radio" name="slide" id="c4" />
+            <label for="c4" class="card">
+              <div class="row">
+                <div class="icon">4</div>
+                <div class="description">
+                  <h4>Search And Filters</h4>
+                </div>
+              </div>
+            </label>
+
+            <input class="radio-btn" type="radio" name="slide" id="c5" />
+            <label for="c5" class="card">
+              <div class="row">
+                <div class="icon">5</div>
+                <div class="description">
+                  <h4>Chatting</h4>
+                </div>
+              </div>
+            </label>
+
+            <input class="radio-btn" type="radio" name="slide" id="c6" />
+            <label for="c6" class="card">
+              <div class="row">
+                <div class="icon">6</div>
+                <div class="description">
+                  <h4>Admin Page</h4>
+                </div>
+              </div>
+            </label>
+          </div>
+          <div class="project-description">
+            <p>
+              A web application for reading books online, also buy them. It
+              allows the users to communicate with each other through chatting
+              or the blog section, also It contains many features.
+              <span style="color: #7f8c2c; font-weight: bolder"
+                >I used Node.js, Express.js, MongoDB, and React.js, Tailwind
+                CSS.</span
+              >
+            </p>
+          </div>
+        </div>
+        <div class="wrapper-2">
+          <span class="project-title">Sugar Rush</span>
+          <div class="slider2-wrapper">
+            <button class="slider-btn" id="prev-btn">
+              <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <div class="images-list">
+              <img
+                class="image-item"
+                src="assets/project2/1.jpg"
+                alt="image-1"
+              />
+              <img
+                class="image-item"
+                src="assets/project2/2.jpg"
+                alt="image-2"
+              />
+              <img
+                class="image-item"
+                src="assets/project2/3.jpg"
+                alt="image-3"
+              />
+              <img
+                class="image-item"
+                src="assets/project2/4.jpg"
+                alt="image-4"
+              />
+              <img
+                class="image-item"
+                src="assets/project2/5.jpg"
+                alt="image-5"
+              />
+              <img
+                class="image-item"
+                src="assets/project2/6.jpg"
+                alt="image-6"
+              />
+            </div>
+            <button class="slider-btn" id="next-btn">
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+          <div style="width: 85%">
+            <div class="slider2-scrollbar">
+              <div class="scrollbar-track">
+                <div class="scrollbar-thumb"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-description">
+            <p>
+              Cake shop website.
+              <span style="color: #7f8c2c; font-weight: bolder"
+                >I used Html, Css, JavaScript, Bootstrap, and SQL.</span
+              >
+            </p>
+          </div>
+        </div>
+        <div class="wrapper-2">
+          <span class="project-title">Apple iPhone</span>
+          <div class="project-3">
+            <div class="image-container">
+              <img src="assets/project3/1.png" alt="image-1" />
+            </div>
+            <div class="image-container">
+              <img src="assets/project3/2.png" alt="image-2" />
+            </div>
+          </div>
+          <div class="project-description">
+            <p>
+              Apple products shop website, I'm still working on it,
+              <span style="color: #7f8c2c; font-weight: bolder"
+                >I using React.js, Tailwind css, and Gsap for animation.</span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <div style="background: #de6b2879" class="line"></div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <div class="contact-grid">
+          <div class="send-message-form">
+            <h3>Send me a message</h3>
+            <form>
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <textarea placeholder="Your Message" required></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          <div class="contact-information">
+            <h3>Contact Information</h3>
+            <div style="padding: 10px">
+              <p>
+                <i class="fa-solid fa-map-marker-alt"></i>
+                123 Street, Nablus, Palestine
+              </p>
+              <p><i class="fa-solid fa-phone"></i> +972 56-910-0308</p>
+              <p>
+                <i class="fa-solid fa-envelope"></i> sadeenghawash593@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="background: #e5cb2060" class="line"></div>
+    </section>
+    <footer>
+      <div id="links" class="links">
+        <a style="color: #c77a71" href="#home">Home</a>
+        <a style="color: #e5ca20" href="#about">About</a>
+        <a style="color: #b0a2af" href="#skills">Skills</a>
+        <a style="color: #7f8c2c" href="#projects">Projects</a>
+        <a style="color: #de6c28" href="#contact">Contact</a>
+      </div>
+      <div class="img-side">
+        <img class="inner-img" src="assets/homeImg.png" alt="" />
+        <img class="bg-img" src="assets/ring.png" alt="" />
+      </div>
+      <div style="display: flex; gap: 50px">
+        <p style="font-size: 20px">
+          &copy; 2024 Portfolio. All rights reserved.
+        </p>
+        <div class="scroll-to-top">
+          <a style="color: #e5ca20" href="#"
+            ><i class="fa-solid fa-angle-up"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="js/main.js"></script>
+</html>
